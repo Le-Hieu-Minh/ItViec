@@ -1,0 +1,46 @@
+.cvmanage {
+  padding: 20px;
+
+  .cv-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #222;
+  }
+
+  .ant-table {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    .ant-table-thead>tr>th {
+      background: #fafafa;
+      font-weight: 600;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .ant-table-tbody>tr>td {
+      text-align: center;
+      font-size: 14px;
+      padding: 12px 8px;
+    }
+  }
+
+  .ant-tag {
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 3px 8px;
+  }
+
+  .ant-btn {
+    border-radius: 6px;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #1677ff;
+      color: #fff;
+    }
+  }
+}

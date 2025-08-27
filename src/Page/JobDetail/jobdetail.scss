@@ -1,0 +1,116 @@
+.job-detail {
+  padding: 20px;
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .btn-back {
+      background: #D4380D;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0.4rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #f0f5ff;
+        transform: translateY(-1px);
+        color: #D4380D;
+        border-color: #D4380D;
+      }
+    }
+
+    .btn-apply {
+      background: #D4380D;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0.4rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #f0f5ff;
+        transform: translateY(-1px);
+        color: #D4380D;
+        border-color: #D4380D;
+      }
+    }
+  }
+
+  .job-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    h2.job-name {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .job-tag,
+    .job-city,
+    .job-salary,
+    .job-address,
+    .job-create {
+      margin: 6px 0;
+      font-size: 15px;
+
+      strong {
+        margin-left: 4px;
+
+      }
+    }
+
+    .job-description,
+    .company-description {
+      margin-top: 16px;
+
+      p {
+        margin-top: 6px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  #formApply {
+    margin-top: 20px;
+    border-radius: 12px;
+
+    .ant-card-head-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .ant-form-item-label label {
+      font-weight: 500;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .btn-sendvalue {
+      background: #C82222;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0.4rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #f0f5ff;
+        transform: translateY(-1px);
+        color: #C82222;
+        border-color: #C82222;
+      }
+    }
+  }
+}

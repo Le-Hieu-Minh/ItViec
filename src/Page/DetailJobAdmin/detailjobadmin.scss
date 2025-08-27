@@ -1,0 +1,58 @@
+.detailjobadmin {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  max-width: 900px;
+
+  .job-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #1677ff;
+  }
+
+  .job-status,
+  .job-tags,
+  .job-salary,
+  .job-createat,
+  .job-update,
+  .job-city,
+  .job-description {
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: #333;
+
+    strong {
+      margin-left: 6px;
+      font-weight: 600;
+      color: #000;
+    }
+  }
+
+  .job-tags {
+    .ant-tag {
+      margin-right: 6px;
+      margin-top: 4px;
+    }
+  }
+
+  .job-city {
+    .ant-tag {
+      margin-right: 6px;
+      margin-top: 4px;
+    }
+  }
+
+  .job-description {
+    p {
+      margin-top: 6px;
+      line-height: 1.6;
+      color: #555;
+      background: #fafafa;
+      padding: 12px;
+      border-radius: 8px;
+    }
+  }
+}

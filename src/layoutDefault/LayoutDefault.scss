@@ -1,0 +1,138 @@
+.layoutstyle {
+  min-height: 100vh; // Chiều cao tối thiểu full màn hình
+  display: flex;
+  flex-direction: column;
+
+  .headerstyle {
+    background: linear-gradient(269.85deg, #54151C 0%, #121212 54.89%);
+    padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    .header__logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .header__nav {
+      display: flex;
+      gap: 0.8rem;
+
+      .btn-login {
+        background: #fff;
+        color: #C82222;
+        border: 1px solid #C82222;
+        padding: 0.4rem 1.2rem;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #C82222;
+          transform: translateY(-1px);
+          color: #fff;
+          border-color: #fff;
+        }
+      }
+
+      .btn-register {
+        background: #C82222;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0.4rem 1.2rem;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #f0f5ff;
+          transform: translateY(-1px);
+          color: #C82222;
+          border-color: #C82222;
+        }
+      }
+    }
+  }
+
+  .mainstyle {
+    flex: 1; // chiếm hết khoảng trống còn lại
+    background: #f5f5f5;
+    padding: 24px 0;
+
+    .container {
+      width: 100%;
+      max-width: 1200px; // giới hạn chiều rộng tối đa
+      margin: 0 auto; // canh giữa ngang
+
+      .ant-input,
+      .ant-select {
+
+        &-outlined {
+          &:hover {
+            border-color: #D4380D;
+          }
+
+          &:focus-within {
+            border-color: #D4380D;
+          }
+
+          .ant-select-selector {
+            &:hover {
+              border-color: #D4380D;
+            }
+
+            &:focus-within {
+              border-color: #D4380D;
+            }
+          }
+        }
+      }
+
+
+
+      .btn-search {
+        background: #C82222;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0.4rem 1.2rem;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #f0f5ff;
+          transform: translateY(-1px);
+          color: #C82222;
+          border-color: #C82222;
+        }
+      }
+
+    }
+  }
+
+  .footerstyle {
+    background: linear-gradient(90deg, #000000 0%, #3c0d0d 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    font-weight: 400;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  }
+}

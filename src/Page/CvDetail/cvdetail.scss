@@ -1,0 +1,68 @@
+.cvdetail {
+  padding: 20px;
+
+  .ant-btn {
+    margin-bottom: 20px;
+    background-color: #1677ff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: #4096ff;
+      color: #fff;
+    }
+  }
+
+  .cv-person,
+  .cv-job {
+    margin-bottom: 20px;
+
+    .ant-card {
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+      .ant-card-head {
+        background: #fafafa;
+        font-weight: 600;
+        font-size: 18px;
+      }
+
+      .ant-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        div {
+          font-size: 15px;
+          color: #333;
+
+          strong {
+            margin-left: 6px;
+            color: #000;
+          }
+
+          p {
+            margin: 4px 0 0;
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+  }
+
+  .cv-job {
+    .cv-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+
+      .ant-tag {
+        font-size: 13px;
+        padding: 3px 8px;
+        border-radius: 6px;
+      }
+    }
+  }
+}

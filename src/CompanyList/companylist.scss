@@ -1,0 +1,30 @@
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ant-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  transition: all 0.3s ease;
+  background: #fff;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+
+  strong {
+    margin-left: 6px;
+    color: #000;
+  }
+}

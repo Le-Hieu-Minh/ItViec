@@ -1,0 +1,30 @@
+.dashboard {
+  padding: 20px;
+  background-color: #f9fafc;
+  min-height: 100vh;
+
+  &-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .ant-row {
+    margin-top: 10px;
+  }
+
+  .ant-col {
+    .ant-card {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}

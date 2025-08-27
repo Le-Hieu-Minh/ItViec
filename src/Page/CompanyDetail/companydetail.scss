@@ -1,0 +1,70 @@
+.company-detail {
+
+
+  .company-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .btn-back {
+      background: #D4380D;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0.4rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #f0f5ff;
+        transform: translateY(-1px);
+        color: #D4380D;
+        border-color: #D4380D;
+      }
+    }
+
+
+  }
+
+  .company-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+    h2.company-companyName {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .company-quantityPeople,
+    .company-workingTime,
+    .company-salary,
+    .company-address,
+    .company-description,
+    .company-address,
+    .company-detail {
+      margin: 6px 0;
+      font-size: 15px;
+
+      strong {
+        margin-left: 4px;
+
+      }
+    }
+
+    .job-description,
+    .company-description {
+      margin-top: 16px;
+
+      p {
+        margin-top: 6px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,52 @@
+.login {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .ant-form-item-label {
+    font-weight: 500;
+    color: #444;
+  }
+
+  .ant-input,
+  .ant-input-password {
+    padding: 10px;
+    border-radius: 8px;
+
+    &-outlined {
+      &:hover {
+        border-color: #D4380D;
+      }
+
+      &:focus-within {
+        border-color: #D4380D;
+      }
+
+    }
+  }
+
+  .ant-input-outlined:hover {}
+
+  .ant-btn {
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #C82222;
+    color: #fff;
+    transition: 0.4s;
+
+    &:hover {
+      background-color: #C82222;
+    }
+  }
+}
