@@ -1,5 +1,4 @@
 const API_DOMAIN = `https://fsrwnq-8080.csb.app/`;
-
 export const get = async (path) => {
   const respone = await fetch(API_DOMAIN + path)
   const result = await respone.json()
